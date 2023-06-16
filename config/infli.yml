@@ -17,4 +17,4 @@ spring:
 
 ---
 
-hello: hello
+hello: '{cipher}79566a3d24d057abd564fbc50e2e7544b36c68e7383b7a300f30327cb9cd0430'

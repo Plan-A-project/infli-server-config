@@ -1,1 +1,27 @@
-infli: hello
+# default 설정
+spring:
+  config:
+    activate:
+      on-profile: "default"
+      
+--- # local 설정
+spring:
+  config:
+    activate:
+      on-profile: "ocal"
+      
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/dev/h2/h2-2.1.214/project/infli;MODE=MySQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+--- # dev 설정
+--- # prod 설정

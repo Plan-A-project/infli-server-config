@@ -18,7 +18,8 @@ spring:
 jwt:
   properties:
     secret: "{cipher}01486141a9d08208e625672f9c5f911e242c3af26576820a516fabfd90ed6c3afda7bea702953059e73ffea23a7fee77"
-    access-token-expiration-seconds: 1800 # 30 min
+    access-token-expiration-seconds: 10
+    # access-token-expiration-seconds: 1800 # 30 min
     refresh-token-expiration-seconds: 1209600 # 14 days
     token-prefix: Bearer
     access-token-header-name: Access-Token

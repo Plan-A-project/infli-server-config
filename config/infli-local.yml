@@ -17,3 +17,4 @@ spring:
       hibernate:
         format_sql: true
 hello: hello
+secret: "{cipher}a7f6b696afd381ea120e9477f1d21ac91da0f01dd1e1565921a12fa98563c30c"

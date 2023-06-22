@@ -23,3 +23,13 @@ jwt:
     token-prefix: Bearer
     access-token-header-name: Access-Token
     refresh-token-header-name: Refresh-Token
+
+cloud:
+  aws:
+    credentials:
+      accessKey: "{cipher}623b3bedea9e067612c747556be805dd2b5a94381e5ef9195a8ad99dc7dd0412918040140893432445696592a403f982"
+      secretKey: "{cipher}30a01cd57752290916a0d98f390e52b08c8b4d277c9c0ba17007106898062436578884f419209c6b623190525e3ca59ba15464278582e417c83e183c7edd89ec"
+    s3:
+      bucket: inflibucket
+    region:
+      static: ap-northeast-2

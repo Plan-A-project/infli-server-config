@@ -12,3 +12,6 @@ spring:
     properties:
       hibernate:
         format_sql: false
+  redis:
+    host: "{cipher}02b52b0198af6c16ec0ef77fced6fb9be3748ca05edc01b3867a238ca8a6560d"
+    port: "{cipher}87aafae6b0c4000b41528588600a5d8301870cdf3f957d686c384111fe1c3d9b"

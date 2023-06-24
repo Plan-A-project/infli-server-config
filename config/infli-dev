@@ -1,0 +1,14 @@
+# local 설정
+spring:
+  datasource:
+    url: "{cipher}e53ccfc184b93c23eb89834d0be09108bb658ae98cf7950fd29d60c7c309182c004b2cfeaac249a9b7986eeb5965acf874e227b369f6799a5e48b697ea78f795adec97cf5a435cfe759d70540d33c37d23dc28e699d61ff974f504158df1d613"
+    username: "{cipher}87845d525a1c3be13c406d407ebfa5e1b91820fc46db0f56c391980bb11837c5"
+    password: "{cipher}505d0cdbc5eeeee9c1243bbabc8f77737bce52f5b9ca6e889a362fdf2788780a"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
